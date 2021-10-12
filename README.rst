@@ -7,8 +7,8 @@ Baby Looking Time Project
 .. |build-status| image:: https://github.com/wsu-tss/student_pathway_project/workflows/build/badge.svg
    :target: https://github.com/wsu-tss/student_pathway_project/actions
 
-.. |documentation-status| image:: https://readthedocs.org/projects/student-pathway-project/badge/?version=latest
-   :target: https://student-pathway-project.readthedocs.io/en/latest/?badge=latest
+.. |documentation-status| image:: https://readthedocs.org/projects/babylookingtime/badge/?version=latest
+   :target: https://babylookingtime.readthedocs.io/en/latest/index.html
    :alt: Documentation Status
 
 Project to calculate baby looking time for lookit experiment outputs.
