@@ -38,7 +38,6 @@ Python package requirements
 
 .. _Python 3: https://www.python.org/downloads/
 .. _Anaconda: https://www.anaconda.com/
-.. _Networkx: https://networkx.github.io/documentation/stable/install.html
 
 
 Installation

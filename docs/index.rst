@@ -7,7 +7,7 @@ Welcome to BabyLookingTime's documentation by Chris
 ===========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
 
