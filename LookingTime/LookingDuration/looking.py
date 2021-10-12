@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import time
 import datetime
-#import csv
+import csv
 
 
 #from decimal import *
@@ -11,9 +11,6 @@ def convertTime(TimeString):
   element = datetime.datetime.strptime(TimeString,"%H:%M:%S:%f")
   timestamp = datetime.datetime.timestamp(element) - datetime.datetime.timestamp(datetime.datetime.strptime("1900-0-1",'%Y-%M-%d'))
   return round(timestamp, 3)
-
-fromVideo = pd.read_csv("AD6BMY_JC.csv")
-fromResp = pd.read_csv("2021-10-07-21-23-AML.csv")
 
 
 def get_data(data):
