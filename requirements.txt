@@ -1,6 +1,5 @@
 numpy
 pandas
-csv
 sphinx
 sphinx_rtd_theme
 jupyter
