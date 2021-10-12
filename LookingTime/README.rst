@@ -1,5 +1,5 @@
 =======================
-Student Pathway Project
+Baby Looking Time Project
 =======================
 
 |build-status| |documentation-status|
@@ -11,7 +11,7 @@ Student Pathway Project
    :target: https://student-pathway-project.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 
-Project to predict the enrolment pathway of students. This project is a work in progress.
+Project to calculate baby looking time for lookit experiment outputs.
 
 
 Get started
@@ -25,8 +25,8 @@ Get started
 Project Features
 ----------------
 
-* Adjacency Matrix for the student pathway.
-* Network diagram to represent student movement.
+* a program to calculate looking time.
+* addin features.
 
 
 Python package requirements
@@ -48,4 +48,4 @@ Installation
 
 * To clone the repository use the following::
 
-    $ git clone https://github.com/wsu-tss/student_pathway_project.git
+    $ git clone https://github.com/chrisw-wsu/BabyLookingTime.git
