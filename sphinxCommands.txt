@@ -1,0 +1,9 @@
+mkdir docs
+cd docs
+sphinx-quickstart
+## config conf.py
+sphinx-apidoc -o . ..
+make html
+
+
+

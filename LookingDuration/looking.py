@@ -5,7 +5,7 @@ import datetime
 import csv
 
 
-#from decimal import *
+
 def convertTime(TimeString):
 
   element = datetime.datetime.strptime(TimeString,"%H:%M:%S:%f")
@@ -26,7 +26,7 @@ def get_data(data):
 
     :Example:
 
-    >>> import lookduration as ld
+    >>> import LookDuration as ld
     >>> fromVideo = ld.get_data("AD6BMY_JC.csv")
     >>> fromResp = ld.get_data("2021-10-07-21-23-AML.csv")
     >>> data.shape
@@ -49,7 +49,7 @@ def get_data(data):
  
 
  
-def findLookingDuration(trial_st, trial_end, InTime, OutTime, save_duration=False):
+def findLookingDuration(trial_st, trial_end, InTime, OutTime, save_duration=False, savetoFile='lookingduration.csv'):
     
     """Returns looking duration.
     ``trial_st`` and ``trial_end`` are start and end of a particular trial.
@@ -64,9 +64,9 @@ def findLookingDuration(trial_st, trial_end, InTime, OutTime, save_duration=Fals
 
     :Example:
 
-    >>> import lookduration as ld
+    >>> import LookDuration as ld
     >>> i=5 # trial 5 from resp
-    >>> duration = ld.findLookingDuration(fromResp.Start[i], fromResp.End[i], fromVideo.InTime, fromVideo.OutTime, save_duration=True).get('Duration')
+    >>> duration = ld.findLookingDuration(fromResp.Start[i], fromResp.End[i], fromVideo.InTime, fromVideo.OutTime, save_duration=True, savetoFile='test.csv').get('Duration')
     """
 
     looking_time = 0
@@ -116,7 +116,7 @@ def findLookingDuration(trial_st, trial_end, InTime, OutTime, save_duration=Fals
     looking_time = looking_time + look_st + look_end
 
     if save_duration: 
-        with open('lookingduration.csv','a') as fd: 
+        with open(savetoFile,'a') as fd: 
             fd.write(str(looking_time) + ', ')
             #writer = csv.writer(fd)
             #writer.writerow(str(looking_time))

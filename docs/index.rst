@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to BabyLookingTime's documentation by Chris
-===========================================
+=======================================================
 
 Guide
 ^^^^^
@@ -14,8 +14,9 @@ Guide
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
-   lic
-   helps
+   
+   modules
+ 
 
 
 

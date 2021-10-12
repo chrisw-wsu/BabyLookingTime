@@ -1,0 +1,7 @@
+looking module
+==============
+
+.. automodule:: looking
+   :members:
+   :undoc-members:
+   :show-inheritance:
