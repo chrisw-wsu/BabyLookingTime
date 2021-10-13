@@ -7,10 +7,24 @@ import csv
 
 
 def convertTime(TimeString):
+    """Convert Time string from 00:00:12:345 to 12.345 and round the deciaml places to 3. 
+    Input ``TimeString`` is in 00:00:12:345 format.
+    calculate the difference between 1900-0-1 to have relate value
 
-  element = datetime.datetime.strptime(TimeString,"%H:%M:%S:%f")
-  timestamp = datetime.datetime.timestamp(element) - datetime.datetime.timestamp(datetime.datetime.strptime("1900-0-1",'%Y-%M-%d'))
-  return round(timestamp, 3)
+    :param TimeString: input time format
+
+    :return: convert to time format.
+
+    :Example:
+
+    >>> import LookDuration as ld
+    >>> newFormat = ld.convertTime("00:00:12:1345")
+
+   
+    """
+    element = datetime.datetime.strptime(TimeString,"%H:%M:%S:%f")
+    timestamp = datetime.datetime.timestamp(element) - datetime.datetime.timestamp(datetime.datetime.strptime("1900-0-1",'%Y-%M-%d'))
+    return round(timestamp, 3)
 
 
 def get_data(data):

@@ -1,4 +1,4 @@
-LookingDuration
+BabyLookingTime
 ===============
 
 .. toctree::
