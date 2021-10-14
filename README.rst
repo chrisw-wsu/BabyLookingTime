@@ -4,8 +4,8 @@ Baby Looking Time Project
 
 |build-status| |documentation-status|
 
-.. |build-status| image:: https://github.com/chrisw-wsu/BabyLookingTime/actions/workflows/main.yml/badge.svg
-   :target: https://github.com/chrisw-wsu/BabyLookingTime/actions
+.. |build-status| image:: ghttps://github.com/chrisw-wsu/BabyLookingTime/actions/workflows/main.yml/badge.svg
+   :target: https://github.com/chrisw-wsu/BabyLookingTime/actions/workflows/main.yml
 
 .. |documentation-status| image:: https://readthedocs.org/projects/babylookingtime/badge/?version=latest
    :target: https://babylookingtime.readthedocs.io/en/latest/index.html
