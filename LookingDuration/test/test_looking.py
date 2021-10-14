@@ -15,14 +15,13 @@ respData = PATH + "/2021-10-07-21-23-AML.csv"
 
 
 def test_convertTime():
-    with pytest.raises(Exception):
-        newTimeFormat = convertTime("00:00:12:345")
-        assert(newTimeFormat >=0)
+    newTimeFormat = convertTime("00:00:12:345")
+    assert(newTimeFormat >=0)
 
 def test_get_data():
     
     fromVideo = get_data(videoData)
-    assert(isinstance(fromVideo, pd.DataFrame))
+    assert(fromVideo.InTime.[0]>=0)
 
 def test_findLookingDuration():
     fromVideo = get_data(videoData)
