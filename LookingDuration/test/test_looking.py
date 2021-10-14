@@ -21,7 +21,7 @@ def test_convertTime():
 def test_get_data():
     
     fromVideo = get_data(videoData)
-    assert(fromVideo.InTime.[0]>=0)
+    assert(fromVideo.InTime[0]>=0)
 
 def test_findLookingDuration():
     fromVideo = get_data(videoData)
