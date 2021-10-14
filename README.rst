@@ -29,7 +29,7 @@ Project Features
 * addin features.
 * `Lookit Study Created by Chris`_
 
-.. _Lookit Study: https://lookit.mit.edu/studies/a12c5bff-b6a6-4e37-b02a-0bb94ce4e1ce/
+.. _Lookit Study Created by Chris: https://lookit.mit.edu/studies/a12c5bff-b6a6-4e37-b02a-0bb94ce4e1ce/
 
 
 Python package requirements
