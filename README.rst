@@ -27,7 +27,7 @@ Project Features
 
 * a program to calculate looking time.
 * addin features.
-* `Lookit Study Created by Chris`_
+* `Lookit Study`_
 
 .. _Lookit Study Created by Chris: https://lookit.mit.edu/studies/a12c5bff-b6a6-4e37-b02a-0bb94ce4e1ce/
 
