@@ -4,7 +4,7 @@ Baby Looking Time Project
 
 |build-status| |documentation-status|
 
-.. |build-status| image:: https://github.com/chrisw-wsu/BabyLookingTime/workflows/build/badge.svg
+.. |build-status| image:: https://github.com/chrisw-wsu/BabyLookingTime/actions/workflows/python-app.yml/badge.svg
    :target: https://github.com/chrisw-wsu/BabyLookingTime/actions
 
 .. |documentation-status| image:: https://readthedocs.org/projects/babylookingtime/badge/?version=latest
