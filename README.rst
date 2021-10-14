@@ -27,16 +27,20 @@ Project Features
 
 * a program to calculate looking time.
 * addin features.
+* `Lookit Study`_
+.. _Lookit Study: https://code.visualstudio.com/
+
+https://lookit.mit.edu/studies/a12c5bff-b6a6-4e37-b02a-0bb94ce4e1ce/
 
 
 Python package requirements
 ---------------------------
 
 * `Python 3`_
-* `Anaconda`_
+* `VisualStudio Code`_
 
 .. _Python 3: https://www.python.org/downloads/
-.. _Anaconda: https://www.anaconda.com/
+.. _VisualStudio Code: https://code.visualstudio.com/
 
 
 Installation
