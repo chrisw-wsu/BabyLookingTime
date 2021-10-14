@@ -16,7 +16,7 @@ respData = PATH + "/2021-10-07-21-23-AML.csv"
 
 def test_convertTime():
     with pytest.raises(Exception):
-        newTimeFormat = ld.convertTime("00:00:12:345")
+        newTimeFormat = convertTime("00:00:12:345")
 
 def test_get_data():
     
