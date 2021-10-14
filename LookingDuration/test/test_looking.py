@@ -27,7 +27,7 @@ def test_findLookingDuration():
     fromVideo = get_data(videoData)
     fromResp = get_data(respData)
     i=2 # trial 5 from resp
-    duration = ld.findLookingDuration(fromResp.Start[i], fromResp.End[i], fromVideo.InTime, fromVideo.OutTime, save_duration=False, savetoFile='test.csv').get('Duration')
+    duration = findLookingDuration(fromResp.Start[i], fromResp.End[i], fromVideo.InTime, fromVideo.OutTime, save_duration=False, savetoFile='test.csv').get('Duration')
     assert(duration >=0)
 
 
